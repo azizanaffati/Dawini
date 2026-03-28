@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DAWINI | Static Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-container">
+      <a class="brand" href="#home">
+        <div class="logo-wrapper">
+          <span class="logo-icon">D</span>
+          <span class="status-indicator online"></span>
+        </div>
+        <span class="logo-text">DAWINI</span>
+      </a>
+
+      <nav class="nav-menu">
+        <div class="nav-group">
+          <a href="#modules" title="Schedule">Appointments</a>
+          <a href="#modules">Rooms</a>
+        </div>
+
+        <div class="nav-separator"></div>
+
+        <div class="nav-group">
+          <a href="#modules">Pharmacy</a>
+          <a href="#modules">Equipments</a>
+        </div>
+
+        <div class="nav-separator"></div>
+
+        <div class="nav-group">
+          <a href="#modules">Ambulances</a>
+          <a href="#modules">Restaurant</a>
+        </div>
+
+        <div class="user-profile-card">
+          <div class="avatar-stack">
+            <div class="avatar-circle">NA</div>
+            <span class="status-indicator online profile-status"></span>
+          </div>
+          <div class="user-info">
+            <span class="user-role">Administrator</span>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="home-wrapper" id="home">
+      <section class="hero-section">
+        <div class="hero-content">
+          <div class="status-chip">
+            <span class="pulse-dot"></span>
+            Live Multitenant System
+          </div>
+          <h1>Digitalizing Care,<br><span class="highlight">Empowering Life.</span></h1>
+          <p class="hero-desc">A secure platform designed to optimize medical workflows, ensuring complete data isolation and improved patient outcomes globally.</p>
+          <div class="hero-btns">
+            <a class="btn-primary" href="#modules">Explore Modules</a>
+            <a class="btn-outline-glass" href="#footer">View Documentation</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="glass-card main-stats">
+            <div class="card-label">Patient Activity · 7d</div>
+            <div class="chart-bars">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+            <div class="chart-footer">
+              <span>Mon — Sun</span>
+              <span class="live-badge"><span class="live-dot"></span> Live</span>
+            </div>
+          </div>
+
+          <div class="glass-card sub-stats">
+            <span class="val">99.9%</span>
+            <span class="lbl">System Reliability</span>
+          </div>
+
+          <div class="glass-card patients-card">
+            <div class="stat-val">12.4k</div>
+            <div class="stat-lbl">Active Patients</div>
+            <div class="trend">↑ 8.2% this week</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sdg-grid">
+        <div class="sdg-item">
+          <div class="sdg-icon-wrap">
+            <span class="sdg-icon">03</span>
+          </div>
+          <div class="sdg-info">
+            <h3>Good Health</h3>
+            <p>Enhancing service delivery and medical record accuracy.</p>
+          </div>
+        </div>
+        <div class="sdg-item">
+          <div class="sdg-icon-wrap">
+            <span class="sdg-icon">09</span>
+          </div>
+          <div class="sdg-info">
+            <h3>Innovation</h3>
+            <p>A robust infrastructure for digital-first clinics.</p>
+          </div>
+        </div>
+        <div class="sdg-item">
+          <div class="sdg-icon-wrap">
+            <span class="sdg-icon">10</span>
+          </div>
+          <div class="sdg-info">
+            <h3>Equality</h3>
+            <p>Accessible healthcare regardless of location or organization.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="module-showcase" id="modules">
+        <p class="section-eyebrow">Platform Capabilities</p>
+        <h2 class="section-title">Core Ecosystem</h2>
+        <p class="section-sub">Everything a modern healthcare organization needs, built into one unified platform.</p>
+
+        <div class="module-grid">
+          <div class="m-card">
+            <div class="m-icon-wrap"><div class="m-icon">💊</div></div>
+            <h4>Pharmacy</h4>
+            <p>Inventory tracking and automated expiry alerts.</p>
+            <div class="m-card-arrow">→</div>
+          </div>
+          <div class="m-card">
+            <div class="m-icon-wrap"><div class="m-icon">🚑</div></div>
+            <h4>Ambulance</h4>
+            <p>Real-time vehicle status and driver assignment.</p>
+            <div class="m-card-arrow">→</div>
+          </div>
+          <div class="m-card">
+            <div class="m-icon-wrap"><div class="m-icon">📑</div></div>
+            <h4>Billing</h4>
+            <p>Automated invoicing and insurance management.</p>
+            <div class="m-card-arrow">→</div>
+          </div>
+          <div class="m-card">
+            <div class="m-icon-wrap"><div class="m-icon">⚙️</div></div>
+            <h4>Equipment</h4>
+            <p>Predictive maintenance for surgical and ICU tools.</p>
+            <div class="m-card-arrow">→</div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="main-footer" id="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h2>DAWINI</h2>
+        <p>Digitalizing medical workflows through a secure multitenant architecture. Improving healthcare delivery globally.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Platform Focus</h4>
+        <ul>
+          <li>Pharmacy <span class="sdg-tag">SDG 3</span></li>
+          <li>Infrastructure <span class="sdg-tag">SDG 9</span></li>
+          <li>Accessibility <span class="sdg-tag">SDG 10</span></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Technical Stack</h4>
+        <p>Angular 18 Modular</p>
+        <p>Spring Boot Backend</p>
+        <p>JWT Security</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Innovative Minds Team | ESPRIT Academic Project</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
